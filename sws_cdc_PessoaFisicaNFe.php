@@ -44,6 +44,11 @@
 	{
 		public $Documento;
 		public $Nome;
+		public $DataNascimento;
+		public $DataInscricao;
+		public $AnoObito;
+		public $MensagemObito;
+		public $CodigoSituacaoCadastral;
 		public $SituacaoRFB;
 		public $DataConsultaRFB;
 		public $ProtocoloRFB;
@@ -54,14 +59,19 @@
 		public function __construct()
 		{
 			parent::__construct(array(
-				'Documento'             => 'string',
-				'Nome'                  => 'string',
-				'SituacaoRFB'           => 'string',
-				'DataConsultaRFB'       => 'string',
-				'ProtocoloRFB'          => 'string',
-				'DigitoVerificador'     => 'string',
-				'Mensagem'              => 'string',
-				'Status'                => 'boolean',
+				'Documento'             	=> 'string',
+				'Nome'                  	=> 'string',
+				'DataNascimento'        	=> 'string',
+				'DataInscricao'         	=> 'string',
+				'AnoObito'	        	=> 'string',
+				'MensagemObito'         	=> 'string',
+				'CodigoSituacaoCadastral'  	=> 'string',
+				'SituacaoRFB'           	=> 'string',
+				'DataConsultaRFB'       	=> 'string',
+				'ProtocoloRFB'          	=> 'string',
+				'DigitoVerificador'     	=> 'string',
+				'Mensagem'              	=> 'string',
+				'Status'                	=> 'boolean',
 			));
 		}
 	}
